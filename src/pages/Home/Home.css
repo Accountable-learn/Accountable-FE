@@ -113,6 +113,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-height: inherit;
 }
 
 .form > div {
@@ -148,10 +149,11 @@
     display: grid;
     padding: 30px 30px;
     color: #563400;
+    height: 20%;
   }
 
   .home-section4 {
-    margin-top: 19em;
+    padding: 2px;
   }
 
   .home-p1 {
@@ -184,11 +186,13 @@
     height: auto; /* Remove fixed height */
     padding: 20px; /* Decrease padding for smaller screens */
     margin-top: 20px; /* Decrease margin for smaller screens */
+    max-height: inherit;
   }
 
   .contact-form-container .form > div {
     margin-top: 10px; /* Decrease margin for smaller screens */
     margin-bottom: 10px; /* Decrease margin for smaller screens */
+    max-height: inherit;
   }
 
   .mb-30 {
@@ -204,7 +208,7 @@
   }
 
   .Get-Start-Button {
-    padding: 1.2rem!important;
-    font-size: 1.2rem!important;
+    padding: 1.2rem !important;
+    font-size: 1.2rem !important;
   }
 }
